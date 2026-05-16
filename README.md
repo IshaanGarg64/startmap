@@ -1,4 +1,6 @@
 # Startmap 🚀
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/84a02e87-fae9-422a-8d5a-84cd14adfe4b" />
+
 
 Startmap is an interactive, cinematic "startup universe" ecosystem map. It visualizes the complex relationships between top startups (such as Y Combinator alumni) in a stunning, highly animated Bento Grid UI. 
 
