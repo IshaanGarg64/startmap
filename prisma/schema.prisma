@@ -1,0 +1,24 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Company {
+  id          String  @id @default(uuid())
+  name        String
+  description String
+  industry    String
+  batch       String
+  website     String
+  tags        String
+  city        String  @default("San Francisco")
+  country     String  @default("USA")
+  lat         Float   @default(37.7749)
+  lng         Float   @default(-122.4194)
+  employees   String  @default("")
+  founded     String  @default("")
+}
